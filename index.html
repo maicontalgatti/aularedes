@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfólio - Desenvolvedor Web</title>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    </head>
+    <body>
+        <div id="index" class="pages">
+            <div class="container main">
+                <div class="row home">
+                    <div id="index_left" class="col-md-6 left">
+                        <img class="img-responsive img-rabbit" src="assets/images/home.jpg" alt="Foto do Desenvolvedor">
+                    </div>
+                    <div id="index_right" class="col-md-6 text-center right">
+                        <div class="logo">
+                            <h1 class="page-title">João Silva</h1>
+                            <h4>Desenvolvedor Full Stack</h4>
+                        </div>
+                        <p class="home-description">
+                            Desenvolvedor apaixonado por criar soluções web inovadoras e eficientes. Especializado em React, Node.js e tecnologias modernas de desenvolvimento.
+                        </p>
+                        <div class="btn-group-vertical custom_btn animated slideinright">
+                            <div id="about" class="btn btn-rabbit">Sobre Mim</div>
+                            <div id="work" class="btn btn-rabbit">Projetos</div>
+                            <div id="contact" class="btn btn-rabbit">Contato</div>
+                        </div>
+                        <div class="social">
+                            <a href="https://github.com" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about_scroll" class="pages">
+            <div class="container main">
+                <div class="row">
+                    <div class="col-md-6 left" id="about_left">
+                        <img class="img-responsive img-rabbit" src="assets/images/about.jpg" alt="Sobre mim">
+                    </div>
+                    <div class="col-md-6 right" id="about_right">
+                        <a href="#index" class="btn btn-rabbit back"><i class="fa fa-angle-left" aria-hidden="true"></i> Voltar</a>
+                        <div id="watermark">
+                            <h2 class="page-title">Sobre Mim</h2>
+                        </div>
+                        <p class="subtitle">Desenvolvedor Web Full Stack com 5 anos de experiência</p>
+                        <div class="info">
+                            <h3>Habilidades Técnicas:</h3>
+                            <ul>
+                                <li>Frontend: HTML5, CSS3, JavaScript, React, Vue.js</li>
+                                <li>Backend: Node.js, PHP, Python</li>
+                                <li>Banco de Dados: MySQL, MongoDB</li>
+                                <li>DevOps: Git, Docker, AWS</li>
+                            </ul>
+                            <h3>Formação:</h3>
+                            <p>Bacharel em Ciência da Computação - Universidade XYZ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="work_scroll" class="pages">
+            <div class="container main">
+                <div class="row">
+                    <div class="col-md-6" id="work_left">
+                        <div id="owl-demo" class="owl-carousel owl-theme">
+                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/work.jpg" alt="Projeto 1"></div>
+                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/home.jpg" alt="Projeto 2"></div>
+                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/contact.jpg" alt="Projeto 3"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" id="work_right">
+                        <a href="#index" class="btn btn-rabbit back"><i class="fa fa-angle-left" aria-hidden="true"></i> Voltar</a>
+                        <div id="watermark">
+                            <h2 class="page-title">Projetos</h2>
+                        </div>
+                        <div class="projects">
+                            <div class="project-item">
+                                <h3>E-commerce Platform</h3>
+                                <p>Desenvolvimento de uma plataforma completa de e-commerce usando React e Node.js</p>
+                                <p><strong>Tecnologias:</strong> React, Node.js, MongoDB, AWS</p>
+                            </div>
+                            <div class="project-item">
+                                <h3>Sistema de Gestão</h3>
+                                <p>Sistema web para gestão empresarial com dashboard analítico</p>
+                                <p><strong>Tecnologias:</strong> Vue.js, PHP, MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact_scroll" class="pages">
+            <div class="container main">
+                <div class="row">
+                    <div class="col-md-6 left" id="contact_left">
+                        <img class="img-responsive img-rabbit" src="assets/images/contact.jpg" alt="Contato">
+                    </div>
+                    <div class="col-md-6 right" id="contact_right">
+                        <a href="#index" class="btn btn-rabbit back"><i class="fa fa-angle-left" aria-hidden="true"></i> Voltar</a>
+                        <div id="watermark">
+                            <h2 class="page-title">Contato</h2>
+                        </div>
+                        <p class="subtitle">Vamos trabalhar juntos? Entre em contato!</p>
+                        <form class="form_edit">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Nome" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-rabbit submit">Enviar Mensagem</button>
+                        </form>
+                        <div class="social">
+                            <p><i class="fa fa-envelope"></i> contato@exemplo.com</p>
+                            <p><i class="fa fa-phone"></i> (11) 99999-9999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-center">
+                <div class="container bottom">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>© 2024 - Todos os direitos reservados</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
